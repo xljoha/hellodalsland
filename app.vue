@@ -1,29 +1,11 @@
 <template>
-  <div class="wrapper">
-    <div class="container">
-      <h1>Hello Dalsland</h1>
-      <p><small>Coming soonish....</small></p>
-    </div>
+  <div class="flex items-center justify-center h-screen">
+    <section class="w-full md:w-9/12">
+      <div class="p-4 bg-slate-600 text-yellow-50">
+        <h1 class="text-4xl">Hello Dalsland</h1>
+        <p class="text-xs">Coming soonish....</p>
+      </div>
+    </section>
   </div>
 </template>
-
-<style>
-.wrapper {
-  margin: 0;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-}
-.container {
-  padding: 20px;
-  width: 85vw;
-  margin: 0 auto;
-  overflow: auto;
-  background-color: #002147; /* oxford blue */
-  color: whitesmoke;
-}
-
-h1 {
-  font-size: 3em;
-}
-</style>
+<style></style>
